@@ -10,6 +10,7 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
+import Image from 'next/image'
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -145,7 +146,7 @@ export default function Home() {
             <br></br>
             {data.aboutParaThree}
           </p>
-          <img src="https://github.com/PIC123/react-portfolio-template/blob/master/src/images/self.jpg?raw=true" alt="about"></img>
+          <Image src="https://github.com/PIC123/react-portfolio-template/blob/master/src/images/self.jpg?raw=true" alt="about"></Image>
           </div>
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
@@ -153,7 +154,7 @@ export default function Home() {
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
               {data.skills.map((skill, index) => (
                 <div className="skill" key={index} style={{alignItems:"center"}}>
-                  <img src={skill.imgSrc} alt="css"  width="50px" height="50px"></img>
+                  <Image src={skill.imgSrc} alt="css"  width="50px" height="50px"></Image>
                   <p className="skillText">{skill.title}</p>
                 </div>
               ))}

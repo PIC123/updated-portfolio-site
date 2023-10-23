@@ -21,6 +21,7 @@ const Resume = () => {
     if (!showResume) {
       router.push("/");
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <>
@@ -72,7 +73,7 @@ const Resume = () => {
                 <h1 className="text-2xl font-bold">Education</h1>
                 {resume.education.map(
                   ({ id, universityName, universityDate, universityPara, universityDegree }) => (
-                    <div className="mt-2">
+                    <div className="mt-2" key={id}>
                       <h2 className="text-lg">{universityName}</h2>
                       <h3 className="text-sm opacity-75">
                         {universityDate}
