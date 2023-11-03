@@ -121,7 +121,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         className={`mt-10 hidden flex-row items-center justify-between sticky ${
           theme === "light" && "bg-white"
         } dark:text-white top-0 z-10 tablet:flex`}
-        style={{ background: theme === "dark" ? "#1F2937" : "#F9FAFB" }}
+        style={{ background: theme === "dark" ? "#121212" : "#FFFFFF" }}
       >
         <h1
           onClick={() => router.push("/")}

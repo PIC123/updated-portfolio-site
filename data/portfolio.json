@@ -40,7 +40,7 @@
         {
             "id": "3",
             "title": "DreamMachine",
-            "description": "An art installation that combined a rotary phone, a custom API, and generative AI to enable users to record their dreams and receive a custom AI-generated dream interpretation.",
+            "description": "An art installation that combined a rotary phone, a custom API, and generative AI to enable users to speak their dreams and receive a custom AI-generated dream interpretation.",
             "imageSrc": "https://drive.google.com/uc?export=download&id=1JZ4Hy5oyvfXiZLajhRhtttiajmxKeZC8",
             "url": "https://lively-smoke-004d17f10.2.azurestaticapps.net/"
         },
