@@ -27,9 +27,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 onClick={() => router.push("/")}
                 className="font-medium p-2 laptop:p-0 link"
               >
-                {name}.
+                Home
               </h1>
-
               <div className="flex items-center">
                 {data.darkMode && (
                   <Button
@@ -122,16 +121,17 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         className={`mt-10 hidden flex-row items-center justify-between sticky ${
           theme === "light" && "bg-white"
         } dark:text-white top-0 z-10 tablet:flex`}
+        style={{ background: theme === "dark" ? "#1F2937" : "#F9FAFB" }}
       >
         <h1
           onClick={() => router.push("/")}
           className="font-medium cursor-pointer mob:p-2 laptop:p-0"
         >
-          {name}.
+          Home
         </h1>
         {!isBlog ? (
           <div className="flex">
-            <Button onClick={handleWorkScroll}>Work</Button>
+            <Button onClick={handleWorkScroll}>Projects</Button>
             <Button onClick={handleAboutScroll}>About</Button>
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
