@@ -4,6 +4,14 @@
 
 .markdown-class {
   @apply mt-5 p-5;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  background: #877e7e;
+  border-radius: 2em;
 }
 
 /* Headings */

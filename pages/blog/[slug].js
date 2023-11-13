@@ -11,6 +11,7 @@ import BlogEditor from "../../components/BlogEditor";
 import { useRouter } from "next/router";
 import Cursor from "../../components/Cursor";
 import data from "../../data/portfolio.json";
+import Socials from "../../components/Socials";
 
 const BlogPost = ({ post }) => {
   const [showEditor, setShowEditor] = useState(false);
@@ -56,7 +57,14 @@ const BlogPost = ({ post }) => {
           </h2>
         </div>
         <ContentSection content={post.content}></ContentSection>
-        <Footer />
+        <hr/>
+        <div className="mt-10">
+          <a className="text-2xl underline underline-offset-1" href={`mailto:phil@cherner.dev`}>
+            phil@cherner.dev
+          </a>
+          <Socials />
+        </div>
+        {/* <Footer /> */}
       </div>
       {process.env.NODE_ENV === "development" && (
         <div className="fixed bottom-6 right-6">
