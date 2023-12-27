@@ -39,48 +39,55 @@
         },
         {
             "id": "3",
+            "title": "DreamWeaver",
+            "description": "An AI powered illustrated storybook that allows users to create limitless stories, fostering imagination and creativity by offering a platform for unlimited narrative exploration. User's co-create infinite choose-your-own-adventure stories with the AI about any topic, in any setting they want.",
+            "imageSrc": "https://raw.githubusercontent.com/PIC123/DreamWeaver/main/src/background.png",
+            "url": "https://mango-flower-0aa90fa0f.3.azurestaticapps.net/"
+        },
+        {
+            "id": "4",
             "title": "DreamMachine",
             "description": "An art installation that combined a rotary phone, a custom API, and generative AI to enable users to speak their dreams and receive a custom AI-generated dream interpretation.",
             "imageSrc": "https://drive.google.com/uc?export=download&id=1JZ4Hy5oyvfXiZLajhRhtttiajmxKeZC8",
             "url": "https://lively-smoke-004d17f10.2.azurestaticapps.net/"
         },
         {
-            "id": "4",
+            "id": "5",
             "title": "FetchML",
             "description": "This little guy is an AI that was trained with Reinforcement Learning using Unity's ML Agents platform. With just 15 minutes of training Bruce was able to learn to play fetch naturally with basic rewards for getting the ball and returning it.",
             "imageSrc": "https://media.githubusercontent.com/media/PIC123/FetchML-Quest/main/resources/fetchMLdemo.gif",
             "url": "https://github.com/PIC123/FetchML-Quest"
         },
         {
-            "id": "5",
+            "id": "6",
             "title": "RockPaperScissors(RPS) VR",
             "description": "This demo app combines the Oculus Quest's hand tracking with gesture recognition and MRTK-Quest to play Rock, Paper, Scissors.",
             "imageSrc": "https://github.com/PIC123/RockPaperScissors-Quest/blob/main/resources/rockPaperScissorsDemo.gif?raw=true",
             "url": "https://github.com/PIC123/RockPaperScissors-Quest"
         },
         {
-            "id": "6",
+            "id": "7",
             "title": "Orion-MRTK",
             "description": "An adaptation of Leap Motion's Orion tech demo for the Oculus Quest, using hand tracking and leveraging MRTK for menus and interactions",
             "imageSrc": "https://media.githubusercontent.com/media/PIC123/OrionQuest-MRTK/main/resources/Orion-MRTK.gif",
             "url": "https://github.com/PIC123/OrionQuest-MRTK"
         },
         {
-            "id": "7",
+            "id": "8",
             "title": "ARtBot",
             "description": "An interactive virtual art gallery with holographic robot curator, developed for NY Creative Tech Week. The user can speak with the ARtBot, which uses speech-to-text and NLP, and ask questions about the art pieces or artists, or change the paintings on display",
             "imageSrc": "https://github.com/PIC123/react-portfolio-template/blob/master/src/images/artbot.png?raw=true",
             "url": "https://www.cherner.dev/"
         },
         {
-            "id": "8",
+            "id": "9",
             "title": "VoTT",
             "description": "Visual Object Tagging Tool is an open source annotation and labeling tool for images and videos. It allows users to quickly label their data and export it in a variety of for\u0002mats to facilitate training ma\u0002chine learning models",
             "imageSrc": "https://github.com/PIC123/react-portfolio-template/blob/master/src/images/vott.png?raw=true",
             "url": "https://github.com/microsoft/VoTT"
         },
         {
-            "id": "9",
+            "id": "10",
             "title": "VR Haptics",
             "description": "An IoT based armband to be worn while in VR that would simulate haptic feedback using electrical mus\u0002cle stimulation. The device was activated based on hand position, tracked using a leap motion on the front of an Oculus Rift, and could simulate tap\u0002ping, as well as recoil through muscle contraction",
             "imageSrc": "https://github.com/PIC123/react-portfolio-template/blob/master/src/images/vrHaptics.png?raw=true",
