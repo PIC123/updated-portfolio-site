@@ -12,13 +12,13 @@
         {
             "id": "1",
             "title": "Github",
-            "img": "https://drive.google.com/uc?export=download&id=1qFOjiD0Sc9qBRDacS5Mmq4L5dtxbW_-Z",
+            "img": "https://raw.githubusercontent.com/PIC123/updated-portfolio-site/main/public/images/github.png",
             "link": "https://github.com/PIC123"
         },
         {
             "id": "2",
             "title": "LinkedIn",
-            "img": "https://drive.google.com/uc?export=download&id=1zoPBEvV2Yo9ihsBIdQxbKWxAPSwJRN48",
+            "img": "https://raw.githubusercontent.com/PIC123/updated-portfolio-site/main/public/images/linkedin.png",
             "link": "https://www.linkedin.com/in/pcherner/"
         }
     ],
@@ -27,14 +27,14 @@
             "id": "1",
             "title": "Earth Mission Control",
             "description": "An immersive, multi-user VR/AR data visualization platform, aimed at enabling climate scientists to more effectively communicate their data stories to policy makers to drive more informed policy decisions.",
-            "imageSrc": "https://drive.google.com/uc?export=download&id=1IOJ3KsGNjaZfRTHiHO6vCXI48_E6QsoQ",
+            "imageSrc": "https://raw.githubusercontent.com/PIC123/updated-portfolio-site/main/public/images/emc.png",
             "url": "https://www.media.mit.edu/projects/earth-mission-control/overview/"
         },
         {
             "id": "2",
             "title": "eMote",
             "description": "An evidence-based web-application aimed at helping people learn to identify and describe their emotions better through AI-assisted self-reflection prompts and personalized AI-generated visual art.",
-            "imageSrc": "https://drive.google.com/uc?export=download&id=1gRtsDPv8SqyEeEJEuKGtc3GjSuuFelER",
+            "imageSrc": "https://raw.githubusercontent.com/PIC123/updated-portfolio-site/main/public/images/eMote.png",
             "url": "https://www.emoteai.art/"
         },
         {
@@ -48,7 +48,7 @@
             "id": "4",
             "title": "DreamMachine",
             "description": "An art installation that combined a rotary phone, a custom API, and generative AI to enable users to speak their dreams and receive a custom AI-generated dream interpretation.",
-            "imageSrc": "https://drive.google.com/uc?export=download&id=1JZ4Hy5oyvfXiZLajhRhtttiajmxKeZC8",
+            "imageSrc": "https://raw.githubusercontent.com/PIC123/updated-portfolio-site/main/public/images/dream-machine.png",
             "url": "https://lively-smoke-004d17f10.2.azurestaticapps.net/"
         },
         {
