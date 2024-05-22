@@ -25,69 +25,97 @@
     "projects": [
         {
             "id": "1",
+            "title": "Natural Harmony",
+            "description": "An interactive real-time generative Ai piece that seeks to reconnect a disassociated humanity to the planet we call home. Using Generative AI as a mirror, we see ourselves not as observers of nature, but as integral parts of its untouched beauty. We are transformed into mountains, rivers, and forests, inspiring a dialogue on living in harmony with nature. Presented at the Boston Museum of Science's Rise Up climate event and the MIT Sloan AI & ML Conference",
+            "imageSrc": "https://raw.githubusercontent.com/PIC123/updated-portfolio-site/main/public/images/natural-harmony2.jpg",
+            "url": "https://www.cherner.dev/"
+        },
+        {
+            "id": "2",
+            "title": "Portico Projection Mapping",
+            "description": "Sound reactive projection mapping of a mural. Portico Brewery's mural came alive through projection mapping, transforming the static art into a dynamic visual installation for a music event. The addition of animations like blinking eyes and moving figures created an immersive experience, blending the mural art and musical performance.",
+            "imageSrc": "https://raw.githubusercontent.com/PIC123/updated-portfolio-site/main/public/images/portico-mapping.gif",
+            "url": "https://www.cherner.dev/"
+        },
+        {
+            "id": "3",
             "title": "Earth Mission Control",
             "description": "An immersive, multi-user VR/AR data visualization platform, aimed at enabling climate scientists to more effectively communicate their data stories to policy makers to drive more informed policy decisions.",
             "imageSrc": "https://raw.githubusercontent.com/PIC123/updated-portfolio-site/main/public/images/emc.png",
             "url": "https://www.media.mit.edu/projects/earth-mission-control/overview/"
         },
         {
-            "id": "2",
+            "id": "3",
+            "title": "EarthBot",
+            "description": "A ChatGPT enabled bot to help navigate the experience and learn more about relevant concepts for just-in-time learning. Initially developed to enhance Earth Mission Control (EMC), the bot delivers a range of features including voice control, gaze tracking, question answering, translation support, and provides a more enjoyable experience through a personal exploration assistant.",
+            "imageSrc": "https://raw.githubusercontent.com/PIC123/updated-portfolio-site/main/public/images/earthbot.gif",
+            "url": "https://docs.google.com/presentation/d/e/2PACX-1vTBnn_Doy7v0mNTh4NWbWeQDdHQ_Sdt7nJz4qanN8OdWPJmwfc2RfUFBXNsGiuVDsRlCjO2qIWMABRi/pub?start=false&loop=false&delayms=3000"
+        },
+        {
+            "id": "4",
             "title": "eMote",
             "description": "An evidence-based web-application aimed at helping people learn to identify and describe their emotions better through AI-assisted self-reflection prompts and personalized AI-generated visual art.",
             "imageSrc": "https://raw.githubusercontent.com/PIC123/updated-portfolio-site/main/public/images/eMote.png",
             "url": "https://www.emoteai.art/"
         },
         {
-            "id": "3",
+            "id": "5",
+            "title": "Tipping Points",
+            "description": "An immersive installation at the Museum of Science, using generative AI video and projection mapping. Tipping Points was built to convey the multitude of variables that support a healthy environment, and depict the consequences of removing too many factors. With AI-generated visuals projection-mapped onto the museum wall and a reimagined game of Jenga, Tipping Points is a multisensory experience that guides the audience through the potential collapse that awaits us if we don’t take action soon.",
+            "imageSrc": "https://raw.githubusercontent.com/PIC123/updated-portfolio-site/main/public/images/tipping-points.jpg",
+            "url": "https://www.emoteai.art/"
+        },
+        {
+            "id": "6",
             "title": "DreamWeaver",
             "description": "An AI powered illustrated storybook that allows users to create limitless stories, fostering imagination and creativity by offering a platform for unlimited narrative exploration. User's co-create infinite choose-your-own-adventure stories with the AI about any topic, in any setting they want.",
             "imageSrc": "https://raw.githubusercontent.com/PIC123/DreamWeaver/main/src/background.png",
             "url": "https://mango-flower-0aa90fa0f.3.azurestaticapps.net/"
         },
         {
-            "id": "4",
+            "id": "7",
             "title": "DreamMachine",
             "description": "An art installation that combined a rotary phone, a custom API, and generative AI to enable users to speak their dreams and receive a custom AI-generated dream interpretation.",
             "imageSrc": "https://raw.githubusercontent.com/PIC123/updated-portfolio-site/main/public/images/dream-machine.png",
             "url": "https://lively-smoke-004d17f10.2.azurestaticapps.net/"
         },
         {
-            "id": "5",
+            "id": "8",
             "title": "FetchML",
             "description": "This little guy is an AI that was trained with Reinforcement Learning using Unity's ML Agents platform. With just 15 minutes of training Bruce was able to learn to play fetch naturally with basic rewards for getting the ball and returning it.",
             "imageSrc": "https://media.githubusercontent.com/media/PIC123/FetchML-Quest/main/resources/fetchMLdemo.gif",
             "url": "https://github.com/PIC123/FetchML-Quest"
         },
         {
-            "id": "6",
+            "id": "9",
             "title": "RockPaperScissors(RPS) VR",
             "description": "This demo app combines the Oculus Quest's hand tracking with gesture recognition and MRTK-Quest to play Rock, Paper, Scissors.",
             "imageSrc": "https://github.com/PIC123/RockPaperScissors-Quest/blob/main/resources/rockPaperScissorsDemo.gif?raw=true",
             "url": "https://github.com/PIC123/RockPaperScissors-Quest"
         },
         {
-            "id": "7",
+            "id": "10",
             "title": "Orion-MRTK",
             "description": "An adaptation of Leap Motion's Orion tech demo for the Oculus Quest, using hand tracking and leveraging MRTK for menus and interactions",
             "imageSrc": "https://media.githubusercontent.com/media/PIC123/OrionQuest-MRTK/main/resources/Orion-MRTK.gif",
             "url": "https://github.com/PIC123/OrionQuest-MRTK"
         },
         {
-            "id": "8",
+            "id": "11",
             "title": "ARtBot",
             "description": "An interactive virtual art gallery with holographic robot curator, developed for NY Creative Tech Week. The user can speak with the ARtBot, which uses speech-to-text and NLP, and ask questions about the art pieces or artists, or change the paintings on display",
             "imageSrc": "https://github.com/PIC123/react-portfolio-template/blob/master/src/images/artbot.png?raw=true",
             "url": "https://www.cherner.dev/"
         },
         {
-            "id": "9",
+            "id": "12",
             "title": "VoTT",
             "description": "Visual Object Tagging Tool is an open source annotation and labeling tool for images and videos. It allows users to quickly label their data and export it in a variety of for\u0002mats to facilitate training ma\u0002chine learning models",
             "imageSrc": "https://github.com/PIC123/react-portfolio-template/blob/master/src/images/vott.png?raw=true",
             "url": "https://github.com/microsoft/VoTT"
         },
         {
-            "id": "10",
+            "id": "13",
             "title": "VR Haptics",
             "description": "An IoT based armband to be worn while in VR that would simulate haptic feedback using electrical mus\u0002cle stimulation. The device was activated based on hand position, tracked using a leap motion on the front of an Oculus Rift, and could simulate tap\u0002ping, as well as recoil through muscle contraction",
             "imageSrc": "https://github.com/PIC123/react-portfolio-template/blob/master/src/images/vrHaptics.png?raw=true",
@@ -159,7 +187,7 @@
         }
     ],
     "aboutParaOne": "I'm a highly motivated engineer with years of experience working in fast-paced, interdisciplinary environments. I have a very strong background in C#, Javascript/Typescript, Python and Unity. With experience creating applications for a range of AR/VR technologies, I'm passionate about building new technologies and experiences that inspire in order to develop the future of human/computer interaction.",
-    "aboutParaTwo": "I'm currently a graduate student at MIT working on my Masters in AI and doing research at the MIT Media Lab under Prof. Dava Newman, combining generative AI, mixed reality, and climate data. Previously I have worked at Microsoft on the Commercial Software Engineering team (CSE) where we collaborate with Microsoft’s top partners, ranging from start-ups to fortune 500 companies across many industries. We work alongside their lead engineers, developing solutions to solve the company’s toughest technical problems.",
+    "aboutParaTwo": "I recently completed my Masters in AI at MIT and am doing research at the MIT Media Lab under Prof. Dava Newman, combining generative AI, mixed reality, and climate data. Previously I have worked at Microsoft on the Commercial Software Engineering team (CSE) where we collaborate with Microsoft’s top partners, ranging from start-ups to fortune 500 companies across many industries. We work alongside their lead engineers, developing solutions to solve the company’s toughest technical problems.",
     "aboutParaThree": "Before that, I was doing research in the Fluid Interfaces group at the MIT MIT Media Lab and worked with the Robot Locomotion Group in MIT CSAIL while studying Electrical Engineering & Computer Science at MIT.",
     "resume": {
         "tagline": "👋  I'm a graduate research assistant, software engineer, designer, tinkerer",
