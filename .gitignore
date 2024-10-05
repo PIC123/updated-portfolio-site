@@ -30,3 +30,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# blog posts (for now)
+_posts

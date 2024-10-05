@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
@@ -10,6 +10,7 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
+import ProjectDetailsModal from "../components/ProjectDetailsModal"; 
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -22,6 +23,16 @@ export default function Home() {
   const textTwo = useRef();
   const textThree = useRef();
   const textFour = useRef();
+
+  const [selectedProject, setSelectedProject] = useState(null); 
+
+  const handleModalShow = (project) => {
+    setSelectedProject(project);  // Show selected project details
+  };
+
+  const handleModalClose = () => {
+    setSelectedProject(null);  // Close the modal
+  };
 
   // Handling Scroll
   const handleWorkScroll = () => {
@@ -50,9 +61,17 @@ export default function Home() {
 
   return (
     <div className={`relative ${data.showCursor && "cursor-none"}`}>
-      {data.showCursor && <Cursor />}
+      {/* {data.showCursor && <Cursor />} */}
       <Head>
         <title>{data.name}</title>
+        <link 
+          rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+          crossOrigin="anonymous" 
+          referrerPolicy="no-referrer" 
+        />
+        <link rel="stylesheet" href="devicon.min.css"></link>
       </Head>
 
       <div className="gradient-circle"></div>
@@ -103,10 +122,11 @@ export default function Home() {
             {data.projects.map((project) => (
               <WorkCard
                 key={project.id}
-                img={project.imageSrc}
+                img={project.images[0]}
                 name={project.title}
                 description={project.description}
-                onClick={() => window.open(project.url)}
+                onClick={() => handleModalShow(project)}
+                project={project}
               />
             ))}
           </div>
