@@ -71,7 +71,7 @@
             "id": "2",
             "title": "Earth Mission Control",
             "description": "An immersive, multi-user VR/AR data visualization platform, aimed at enabling climate scientists to more effectively communicate their data stories to policy makers to drive more informed policy decisions.",
-            "images": ["/images/emc.png", "/images/portfolio/svalbard-sample-crop.gif", "/images/portfolio/emc2.jpg"],
+            "images": ["/images/portfolio/emc.png", "/images/portfolio/svalbard-sample-crop.gif", "/images/portfolio/emc2.jpg"],
             "url": "https://www.media.mit.edu/projects/earth-mission-control/overview/",
             "startDate": "2024",
             "technologies": [
