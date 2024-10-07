@@ -30,8 +30,9 @@
             "url": "https://www.cherner.dev/",
             "startDate": "2024",
             "images": [
-                "/images/natural-harmony2.jpg",
-                "/images/portico-mapping.gif"
+                "/images/portfolio/natural-harmony2.jpg",
+                "/images/portfolio/natural-harmony.jpg",
+                "/images/portfolio/natural-harmony3.jpg"
             ],
             "technologies": [
                 {
@@ -52,24 +53,17 @@
             "id": "1",
             "title": "Portico Projection Mapping",
             "description": "Sound reactive projection mapping of a mural. Portico Brewery's mural came alive through projection mapping, transforming the static art into a dynamic visual installation for a music event. The addition of animations like blinking eyes and moving figures created an immersive experience, blending the mural art and musical performance.",
-            "url": "https://www.cherner.dev/",
+            "url": "https://porticobrewing.com/upcoming-events/vebechk-presents-lets-get-fuzzy",
             "startDate": "2024",
             "images": [
-                "/images/portico-mapping.gif",
-                "/images/natural-harmony2.jpg"
+                "/images/portfolio/portico-mapping.gif",
+                "/images/portfolio/portico-mapping.jpg"
+
             ],
             "technologies": [
                 {
-                    "class": "devicon-angularjs-plain",
-                    "name": "Angular"
-                },
-                {
-                    "class": "devicon-typescript-plain",
-                    "name": "TypeScript"
-                },
-                {
-                    "class": "devicon-csharp-plain",
-                    "name": "C#"
+                    "class": "fa fa-cogs",
+                    "name": "Projection Mapping"
                 }
             ]
         },
@@ -77,7 +71,7 @@
             "id": "2",
             "title": "Earth Mission Control",
             "description": "An immersive, multi-user VR/AR data visualization platform, aimed at enabling climate scientists to more effectively communicate their data stories to policy makers to drive more informed policy decisions.",
-            "images": ["/images/emc.png"],
+            "images": ["/images/emc.png", "/images/portfolio/svalbard-sample-crop.gif", "/images/portfolio/emc2.jpg"],
             "url": "https://www.media.mit.edu/projects/earth-mission-control/overview/",
             "startDate": "2024",
             "technologies": [
@@ -99,7 +93,7 @@
             "id": "3",
             "title": "EarthBot",
             "description": "A ChatGPT enabled bot to help navigate the experience and learn more about relevant concepts for just-in-time learning. Initially developed to enhance Earth Mission Control (EMC), the bot delivers a range of features including voice control, gaze tracking, question answering, translation support, and provides a more enjoyable experience through a personal exploration assistant.",
-            "images": ["/images/earthbot.gif"],
+            "images": ["/images/portfolio/earthbot.gif","/images/portfolio/earthbot2.png","/images/portfolio/earthbot3.png"],
             "url": "https://docs.google.com/presentation/d/e/2PACX-1vTBnn_Doy7v0mNTh4NWbWeQDdHQ_Sdt7nJz4qanN8OdWPJmwfc2RfUFBXNsGiuVDsRlCjO2qIWMABRi/pub?start=false&loop=false&delayms=3000",
             "startDate": "2024",
             "technologies": [
@@ -296,7 +290,7 @@
             {
                 "id": "1",
                 "universityName": "Massachusetts Institute of Technology",
-                "universityDate": "2022-Present",
+                "universityDate": "2022-2024",
                 "universityDegree": "Master of Engineering in Electrical Engineering and Computer Science",
                 "universityPara": "Concentration in Artificial Intelligence and Human-Computer Interaction"
             },
@@ -309,23 +303,108 @@
             }
         ],
         "languages": [
-            "Javascript",
-            "Python",
             "C#",
+            "Javascript",
+            "Typescript",
+            "Python",
             "HTML5",
             "Java"
         ],
         "frameworks": [
             "Unity",
             "React",
-            "Typescript",
             "NodeJs",
             "Unreal Engine"
         ],
         "others": [
             "Figma",
             "Azure",
-            "Git"
+            "Git",
+            "TouchDesigner",
+            "Fusion 360"
+        ],
+        "publications":[
+            {
+                "id": "http://zotero.org/users/10263964/items/9AZFF7E9",
+                "type": "thesis",
+                "abstract": "Data visualizations are incredibly powerful tools for engaging users with increasingly complex and unfamiliar information about the Earth’s changing climate, yet scientists often use only one tool or modality to communicate their ideas about climate data, such as two-dimensional figures and graphs. With the rise of commercially available virtual reality (VR), we can leverage the affordances of the immersive technology to help integrate multiple modalities into a cohesive experience. In this thesis, I will present the design and implementation of the Earth Mission Control (EMC), an immersive multi-user VR data visualization platform designed to enable scientists and educators to more effectively communicate their data-driven stories of climate impacts to policymakers and community members to help them deepen their understanding of their community and the climate impacts that they are facing. The EMC combines existing visualization modalities such as NASA’s Hyperwalls, spherical projections (e.g., NOAA’s Science on a Sphere), map tables, virtual environments, 360 video, and human scale immersive experiences into an engaging and highly interactive VR environment, leveraging each of the modalities’ unique strengths. The design and creation of an AI-powered virtual assistant is also described as a way to add increased immersion, more natural interactions, and increased presence. Initial testing of potential effectiveness of the platform in providing a deeper understanding of localized climate issues and available adaptation strategies and personal actions are also discussed.",
+                "genre": "Thesis",
+                "language": "en",
+                "license": "In Copyright - Educational Use Permitted",
+                "note": "Accepted: 2024-03-21T19:09:04Z",
+                "publisher": "Massachusetts Institute of Technology",
+                "source": "dspace.mit.edu",
+                "title": "Earth Mission Control: A Virtual Reality Platform for Bridging the Climate Science Communication Gap",
+                "title-short": "Earth Mission Control",
+                "URL": "https://dspace.mit.edu/handle/1721.1/153834",
+                "author": [
+                    {
+                        "family": "Cherner",
+                        "given": "Phillip"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            "2024",
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            "2024",
+                            2
+                        ]
+                    ]
+                }
+            },
+            {
+                "id": "http://zotero.org/users/10263964/items/5KA698HA",
+                "type": "article-journal",
+                "abstract": "Data visualizations are incredibly powerful tools for engaging users with increasingly complex and unfamiliar information about the Earth's changing climate, yet scientists often use only one tool or modality to communicate their ideas about climate data, such as two-dimensional figures and graphs. With the rise of commercially available virtual reality (VR), we can leverage the affordances of the immersive technology to help integrate multiple modalities into a cohesive experience. In this presentation, I will share the design and implementation of the Earth Mission Control (EMC), an immersive multi-user VR data visualization platform designed to enable scientists and educators to more effectively communicate their data-driven stories of climate impacts to policymakers and community members to help them deepen their understanding of their community and the climate impacts that they are facing. The EMC combines existing visualization modalities such as NASA's Hyperwalls, spherical projections (like NOAA's Science on a Sphere), map tables, virtual environments, 360 video, and human scale immersive experiences into an engaging and highly interactive VR environment, leveraging each of the modalities' unique strengths. The design and creation of an AI-powered virtual assistant is also described as a way to add increased immersion, more natural interactions, and increased presence. Initial testing of potential effectiveness of the platform in providing a deeper understanding of localized climate issues and available adaptation strategies and personal actions is also discussed. https://agu.confex.com/data/abstract/agu/fm23/9/1/Paper_1428519_abstract_1269225_0.png",
+                "note": "event-title: AGU Fall Meeting Abstracts\nADS Bibcode: 2023AGUFMED34A..09C",
+                "page": "ED34A-09",
+                "source": "NASA ADS",
+                "title": "EMC: A Virtual Reality Platform for Bridging the Climate Science Communication Gap",
+                "title-short": "EMC",
+                "URL": "https://ui.adsabs.harvard.edu/abs/2023AGUFMED34A..09C",
+                "volume": "2023",
+                "author": [
+                    {
+                        "family": "Cherner",
+                        "given": "Phillip"
+                    },
+                    {
+                        "family": "Newman",
+                        "given": "Dava"
+                    },
+                    {
+                        "family": "Connolly",
+                        "given": "Rachel"
+                    }
+                ],
+                "accessed": {
+                    "date-parts": [
+                        [
+                            "2024",
+                            10,
+                            6
+                        ]
+                    ]
+                },
+                "issued": {
+                    "date-parts": [
+                        [
+                            "2023",
+                            12,
+                            1
+                        ]
+                    ]
+                }
+            }
         ]
     }
 }

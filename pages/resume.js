@@ -23,6 +23,23 @@ const Resume = () => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  const formatACMCitation = (publication) => {
+    const authors = publication.author.map(author => `${author.given} ${author.family}`).join(", ");
+    const year = publication.issued["date-parts"][0][0];
+    const title = publication.title;
+    const source = publication.source || "";
+    const url = publication.URL || "";
+
+    return {
+      authors,
+      year,
+      title,
+      source,
+      url
+    };
+  };
+
   return (
     <>
       {process.env.NODE_ENV === "development" && (
@@ -89,6 +106,25 @@ const Resume = () => {
                 )}
               </div>
               <div className="mt-5">
+                <h1 className="text-2xl font-bold">Publications</h1>
+                <ul className="list-disc">
+                  {resume.publications.map((publication, index) => {
+                    const citation = formatACMCitation(publication);
+                    return (
+                      <li key={index} className="ml-5 py-2">
+                        <p className="text-sm">
+                          <span className="font-bold">{citation.authors}</span>. {citation.year}.{" "}
+                          <span className="italic">{citation.title}</span>. {citation.source}.{" "}
+                          <a href={citation.url} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+                            {citation.url}
+                          </a>
+                        </p>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+              <div className="mt-5">
                 <h1 className="text-2xl font-bold">Skills</h1>
                 <div className="flex mob:flex-col desktop:flex-row justify-between">
                   {resume.languages && (
@@ -103,7 +139,6 @@ const Resume = () => {
                       </ul>
                     </div>
                   )}
-
                   {resume.frameworks && (
                     <div className="mt-2 mob:mt-5">
                       <h2 className="text-lg">Frameworks</h2>
@@ -116,7 +151,6 @@ const Resume = () => {
                       </ul>
                     </div>
                   )}
-
                   {resume.others && (
                     <div className="mt-2 mob:mt-5">
                       <h2 className="text-lg">Others</h2>
@@ -131,6 +165,7 @@ const Resume = () => {
                   )}
                 </div>
               </div>
+              
             </div>
           </div>
         )}
