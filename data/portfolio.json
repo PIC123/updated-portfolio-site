@@ -115,28 +115,28 @@
             "id": "4",
             "title": "eMote",
             "description": "An evidence-based web-application aimed at helping people learn to identify and describe their emotions better through AI-assisted self-reflection prompts and personalized AI-generated visual art.",
-            "images": ["/images/eMote.png"],
+            "images": ["/images/portfolio/eMote.png", "/images/portfolio/eMote3.png",  "/images/portfolio/eMote2.jpg"],
             "url": "https://www.emoteai.art/"
         },
         {
             "id": "5",
             "title": "Tipping Points",
             "description": "An immersive installation at the Museum of Science, using generative AI video and projection mapping. Tipping Points was built to convey the multitude of variables that support a healthy environment, and depict the consequences of removing too many factors. With AI-generated visuals projection-mapped onto the museum wall and a reimagined game of Jenga, Tipping Points is a multisensory experience that guides the audience through the potential collapse that awaits us if we don’t take action soon.",
-            "images": ["/images/tipping-points.jpg"],
+            "images": ["/images/portfolio/tipping-points.jpg"],
             "url": "https://www.waveforms.media/nikuai"
         },
         {
             "id": "6",
             "title": "DreamWeaver",
             "description": "An AI powered illustrated storybook that allows users to create limitless stories, fostering imagination and creativity by offering a platform for unlimited narrative exploration. User's co-create infinite choose-your-own-adventure stories with the AI about any topic, in any setting they want.",
-            "images": ["https://raw.githubusercontent.com/PIC123/DreamWeaver/main/src/background.png"],
+            "images": ["https://raw.githubusercontent.com/PIC123/DreamWeaver/main/src/background.png", "/images/portfolio/dreamweaver.png"],
             "url": "https://mango-flower-0aa90fa0f.3.azurestaticapps.net/"
         },
         {
             "id": "7",
             "title": "DreamMachine",
             "description": "An art installation that combined a rotary phone, a custom API, and generative AI to enable users to speak their dreams and receive a custom AI-generated dream interpretation.",
-            "images": ["/images/dream-machine.png"],
+            "images": ["/images/portfolio/dream-machine.png", "/images/portfolio/dream-machine2.png"],
             "url": "https://lively-smoke-004d17f10.2.azurestaticapps.net/"
         },
         {
