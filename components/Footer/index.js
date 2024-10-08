@@ -18,8 +18,8 @@ const Footer = ({}) => {
             </h1>
             {/* <Button type="primary">Schedule a call</Button> */}
             <div className="mt-10">
-              <a className="text-2xl underline underline-offset-1" href={`mailto:phil@cherner.dev`}>
-                phil@cherner.dev
+              <a className="text-2xl underline underline-offset-1" href={`mailto:pcherner@mit.edu`}>
+                pcherner@mit.edu
               </a>
               <Socials />
             </div>

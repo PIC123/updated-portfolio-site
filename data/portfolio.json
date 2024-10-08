@@ -24,68 +24,24 @@
     ],
     "projects": [
         {
-            "id": "0",
-            "title": "Natural Harmony",
-            "description": "An interactive real-time generative Ai piece that seeks to reconnect a disassociated humanity to the planet we call home. Using Generative AI as a mirror, we see ourselves not as observers of nature, but as integral parts of its untouched beauty. We are transformed into mountains, rivers, and forests, inspiring a dialogue on living in harmony with nature. Presented at the Boston Museum of Science's Rise Up climate event and the MIT Sloan AI & ML Conference",
-            "url": "https://www.cherner.dev/",
-            "startDate": "2024",
-            "images": [
-                "/images/portfolio/natural-harmony2.jpg",
-                "/images/portfolio/natural-harmony.jpg",
-                "/images/portfolio/natural-harmony3.jpg"
-            ],
-            "technologies": [
-                {
-                    "class": "devicon-devicon-angularjs-plain",
-                    "name": "Angular"
-                },
-                {
-                    "class": "devicon-devicon-typescript-plain",
-                    "name": "TypeScript"
-                },
-                {
-                    "class": "devicon-devicon-csharp-plain",
-                    "name": "C#"
-                }
-            ]
-        },
-        {
-            "id": "1",
-            "title": "Portico Projection Mapping",
-            "description": "Sound reactive projection mapping of a mural. Portico Brewery's mural came alive through projection mapping, transforming the static art into a dynamic visual installation for a music event. The addition of animations like blinking eyes and moving figures created an immersive experience, blending the mural art and musical performance.",
-            "url": "https://porticobrewing.com/upcoming-events/vebechk-presents-lets-get-fuzzy",
-            "startDate": "2024",
-            "images": [
-                "/images/portfolio/portico-mapping.gif",
-                "/images/portfolio/portico-mapping.jpg"
-
-            ],
-            "technologies": [
-                {
-                    "class": "fa fa-cogs",
-                    "name": "Projection Mapping"
-                }
-            ]
-        },
-        {
             "id": "2",
             "title": "Earth Mission Control",
             "description": "An immersive, multi-user VR/AR data visualization platform, aimed at enabling climate scientists to more effectively communicate their data stories to policy makers to drive more informed policy decisions.",
-            "images": ["/images/portfolio/emc.png", "/images/portfolio/svalbard-sample-crop.gif", "/images/portfolio/emc2.jpg"],
+            "images": ["/images/portfolio/emc3.gif", "/images/portfolio/svalbard-sample-crop.gif", "/images/portfolio/emc2.png", "/images/portfolio/emc.jpg"],
             "url": "https://www.media.mit.edu/projects/earth-mission-control/overview/",
             "startDate": "2024",
             "technologies": [
                 {
-                    "class": "devicon-angularjs-plain",
-                    "name": "Angular"
-                },
-                {
-                    "class": "devicon-typescript-plain",
-                    "name": "TypeScript"
-                },
-                {
                     "class": "devicon-csharp-plain",
                     "name": "C#"
+                },
+                {
+                    "class": "devicon-unity-plain",
+                    "name": "Unity"
+                },
+                {
+                    "class": "devicon-vr-ar",
+                    "name": "VR/AR"
                 }
             ]
         },
@@ -98,16 +54,76 @@
             "startDate": "2024",
             "technologies": [
                 {
-                    "class": "devicon-angularjs-plain",
-                    "name": "Angular"
-                },
-                {
-                    "class": "devicon-typescript-plain",
-                    "name": "TypeScript"
-                },
-                {
                     "class": "devicon-csharp-plain",
                     "name": "C#"
+                },
+                {
+                    "class": "devicon-unity-plain",
+                    "name": "Unity"
+                },
+                {
+                    "class": "devicon-AI",
+                    "name": "Generative AI"
+                },
+                {
+                    "class": "devicon-azure-plain",
+                    "name": "Azure"
+                },
+                {
+                    "class": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "class": "devicon-vr-ar",
+                    "name": "VR/AR"
+                }
+            ]
+        },
+        {
+            "id": "0",
+            "title": "Natural Harmony",
+            "description": "An interactive real-time generative Ai piece that seeks to reconnect a disassociated humanity to the planet we call home. Using Generative AI as a mirror, we see ourselves not as observers of nature, but as integral parts of its untouched beauty. We are transformed into mountains, rivers, and forests, inspiring a dialogue on living in harmony with nature. Presented at the Boston Museum of Science's Rise Up climate event and the MIT Sloan AI & ML Conference",
+            "url": "https://www.cherner.dev/",
+            "startDate": "2024",
+            "images": [
+                "/images/portfolio/natural-harmony5.gif",
+                "/images/portfolio/natural-harmony2.jpg",
+                "/images/portfolio/natural-harmony.jpg",
+                "/images/portfolio/natural-harmony3.jpg"
+            ],
+            "technologies": [
+                {
+                    "class": "devicon-devicon-angularjs-plain",
+                    "name": "TouchDesigner"
+                },
+                {
+                    "class": "devicon-devicon-typescript-plain",
+                    "name": "Python"
+                },
+                {
+                    "class": "devicon-devicon-csharp-plain",
+                    "name": "Arduino"
+                },
+                {
+                    "class": "devicon-devicon-csharp-plain",
+                    "name": "Generative AI"
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "title": "Portico Projection Mapping",
+            "description": "Sound reactive projection mapping of a mural. Portico Brewery's mural came alive through projection mapping, transforming the static art into a dynamic visual installation for a music event. The addition of animations like blinking eyes and moving figures created an immersive experience, blending the mural art and musical performance.",
+            "startDate": "2024",
+            "images": [
+                "/images/portfolio/portico-mapping.gif",
+                "/images/portfolio/portico-mapping.jpg"
+
+            ],
+            "technologies": [
+                {
+                    "class": "fa fa-cogs",
+                    "name": "Projection Mapping"
                 }
             ]
         },

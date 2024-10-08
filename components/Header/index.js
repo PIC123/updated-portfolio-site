@@ -6,16 +6,26 @@ import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
 
-const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
+const Header = ({ isBlog }) => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
-
-  const { name, showBlog, showResume } = data;
+  const { showBlog, showResume } = data;
 
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  const handleSectionNavigation = (sectionId) => {
+    if (router.pathname !== "/") {
+      router.push(`/#${sectionId}`);
+    } else {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
 
   return (
     <>
@@ -30,61 +40,44 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 Home
               </h1>
               <div className="flex items-center">
-                {data.darkMode && (
+                {mounted && (
                   <Button
-                    onClick={() =>
-                      setTheme(theme === "dark" ? "light" : "dark")
-                    }
+                    onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
                   >
                     <img
                       className="h-6"
-                      src={`/images/${
-                        theme === "dark" ? "moon.svg" : "sun.svg"
-                      }`}
-                    ></img>
+                      src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                      alt="Toggle theme"
+                    />
                   </Button>
                 )}
-
                 <Popover.Button>
                   <img
                     className="h-5"
-                    src={`/images/${
-                      !open
-                        ? theme === "dark"
-                          ? "menu-white.svg"
-                          : "menu.svg"
-                        : theme === "light"
-                        ? "cancel.svg"
-                        : "cancel-white.svg"
-                    }`}
-                  ></img>
+                    src={`/images/${!open ? "menu-white.svg" : "cancel-white.svg"}`}
+                  />
                 </Popover.Button>
               </div>
             </div>
             <Popover.Panel
-              className={`absolute right-0 z-10 w-11/12 p-4 ${
-                theme === "dark" ? "bg-slate-800" : "bg-white"
-              } shadow-md rounded-md`}
+              className="absolute right-0 z-10 w-11/12 p-4 bg-[#121212] shadow-md rounded-md"
             >
               {!isBlog ? (
                 <div className="grid grid-cols-1">
-                  <Button onClick={handleWorkScroll}>Work</Button>
-                  <Button onClick={handleAboutScroll}>About</Button>
+                  <Button onClick={() => handleSectionNavigation('work')}>Work</Button>
+                  <Button onClick={() => handleSectionNavigation('about')}>About</Button>
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
                   {showResume && (
                     <Button
-                      onClick={() =>
-                        window.open("mailto:phil@cherner.dev")
-                      }
+                      onClick={() => window.open("mailto:pcherner@mit.edu")}
                     >
                       Resume
                     </Button>
                   )}
-
                   <Button
-                    onClick={() => window.open("mailto:phil@cherner.dev")}
+                    onClick={() => window.open("mailto:pcherner@mit.edu")}
                   >
                     Contact
                   </Button>
@@ -105,9 +98,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       Resume
                     </Button>
                   )}
-
                   <Button
-                    onClick={() => window.open("mailto:phil@cherner.dev")}
+                    onClick={() => window.open("mailto:pcherner@mit.edu")}
                   >
                     Contact
                   </Button>
@@ -118,21 +110,18 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         )}
       </Popover>
       <div
-        className={`mt-10 hidden flex-row items-center justify-between sticky ${
-          theme === "light" && "bg-white"
-        } dark:text-white top-0 z-10 tablet:flex`}
-        style={{ background: theme === "dark" ? "#121212" : "#FFFFFF" }}
+        className="mt-10 hidden flex-row items-center justify-between sticky bg-white dark:bg-[#121212] dark:text-white top-0 z-10 tablet:flex rounded-md px-4 py-2"
       >
         <h1
           onClick={() => router.push("/")}
-          className="font-medium cursor-pointer mob:p-2 laptop:p-0"
+          className="font-medium cursor-pointer mob:p-2 laptop:p-0 ml-2"
         >
           Home
         </h1>
         {!isBlog ? (
-          <div className="flex">
-            <Button onClick={handleWorkScroll}>Projects</Button>
-            <Button onClick={handleAboutScroll}>About</Button>
+          <div className="flex items-center">
+            <Button onClick={() => handleSectionNavigation('work')}>Projects</Button>
+            <Button onClick={() => handleSectionNavigation('about')}>About</Button>
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
@@ -144,23 +133,23 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 Resume
               </Button>
             )}
-
-            <Button onClick={() => window.open("mailto:phil@cherner.dev")}>
+            <Button onClick={() => window.open("mailto:pcherner@mit.edu")}>
               Contact
             </Button>
-            {mounted && theme && data.darkMode && (
+            {mounted && (
               <Button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               >
                 <img
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
-                ></img>
+                  alt="Toggle theme"
+                />
               </Button>
             )}
           </div>
         ) : (
-          <div className="flex">
+          <div className="flex items-center">
             <Button onClick={() => router.push("/")}>Home</Button>
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
@@ -173,19 +162,18 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 Resume
               </Button>
             )}
-
-            <Button onClick={() => window.open("mailto:phil@cherner.dev")}>
+            <Button onClick={() => window.open("mailto:pcherner@mit.edu")}>
               Contact
             </Button>
-
-            {mounted && theme && data.darkMode && (
+            {mounted && (
               <Button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               >
                 <img
                   className="h-6"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
-                ></img>
+                  alt="Toggle theme"
+                />
               </Button>
             )}
           </div>
