@@ -76,7 +76,7 @@ export default function Home() {
         />
         <div className="laptop:mt-20 mt-10">
           <div className="mt-5">
-          <h1
+            <h1
               ref={textOne}
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
             >
@@ -110,7 +110,7 @@ export default function Home() {
         <div id="work" className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-2xl text-bold">Projects.</h1>
 
-          <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
+          <div className="mt-5 laptop:mt-10 grid grid-cols-1 laptop:grid-cols-2 gap-4">
             {data.projects.map((project) => (
               <WorkCard
                 key={project.id}
@@ -134,13 +134,13 @@ export default function Home() {
 
         <div id="about" className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
-          <div className="flex flex-col tablet:flex-row items-center tablet:items-start mt-5 tablet:mt-10">
+          <div className="flex flex-col laptop:flex-row items-center laptop:items-start mt-5 laptop:mt-10">
             <img 
               src="https://github.com/PIC123/react-portfolio-template/blob/master/src/images/self.jpg?raw=true" 
               alt="about" 
-              className="w-full max-w-xs mb-5 tablet:mb-0 tablet:mr-10 rounded-lg"
+              className="w-full max-w-xs mb-5 laptop:mb-0 laptop:mr-10 rounded-lg"
             />
-            <div className="tablet:w-3/5">
+            <div className="laptop:w-3/5">
               <p className="text-xl laptop:text-3xl">{data.aboutParaOne}</p>
               <p className="text-xl laptop:text-3xl mt-5">{data.aboutParaTwo}</p>
               <p className="text-xl laptop:text-3xl mt-5">{data.aboutParaThree}</p>
