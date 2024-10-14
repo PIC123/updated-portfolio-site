@@ -61,7 +61,7 @@ export default function Home() {
 
   return (
     <div className={`relative ${data.showCursor && "cursor-none"}`}>
-      {/* {data.showCursor && <Cursor />} */}
+      {data.showCursor && <Cursor />}
       <Head>
         <title>{data.name}</title>
       </Head>
@@ -76,7 +76,7 @@ export default function Home() {
         />
         <div className="laptop:mt-20 mt-10">
           <div className="mt-5">
-            <h1
+          <h1
               ref={textOne}
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
             >
@@ -124,19 +124,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
-          <h1 className="tablet:m-10 text-2xl text-bold">Services.</h1>
-          <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
-            {data.services.map((service, index) => (
-              <ServiceCard
-                key={index}
-                name={service.title}
-                description={service.description}
-              />
-            ))}
-          </div>
-        </div> */}
-        {/* This button should not go into production */}
         {process.env.NODE_ENV === "development" && (
           <div className="fixed bottom-5 right-5">
             <Link href="/edit">
@@ -144,35 +131,44 @@ export default function Home() {
             </Link>
           </div>
         )}
+
         <div id="about" className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
-          <div style={{display:"flex",alignItems:"center",}}>
-          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
-            {/* {data.aboutpara} */}
-            {data.aboutParaOne}
-            <br></br>
-            <br></br>
-            {data.aboutParaTwo}
-            <br></br>
-            <br></br>
-            {data.aboutParaThree}
-          </p>
-          <img src="https://github.com/PIC123/react-portfolio-template/blob/master/src/images/self.jpg?raw=true" alt="about"></img>
+          <div className="flex flex-col tablet:flex-row items-center tablet:items-start mt-5 tablet:mt-10">
+            <img 
+              src="https://github.com/PIC123/react-portfolio-template/blob/master/src/images/self.jpg?raw=true" 
+              alt="about" 
+              className="w-full max-w-xs mb-5 tablet:mb-0 tablet:mr-10 rounded-lg"
+            />
+            <div className="tablet:w-3/5">
+              <p className="text-xl laptop:text-3xl">{data.aboutParaOne}</p>
+              <p className="text-xl laptop:text-3xl mt-5">{data.aboutParaTwo}</p>
+              <p className="text-xl laptop:text-3xl mt-5">{data.aboutParaThree}</p>
+            </div>
           </div>
         </div>
+
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
           <h1 className="tablet:m-10 text-2xl text-bold">Skills.</h1>
-          <div className="mt-5 tablet:m-10 grid grid-rows-2 laptop:grid-rows-1 gap-6" style={{gridAutoFlow: 'column'}}>
-              {data.skills.map((skill, index) => (
-                <div className="skill" key={index} style={{alignItems:"center"}}>
-                  <img src={skill.imgSrc} alt="css"  width="50px" height="50px"></img>
-                  <p className="skillText">{skill.title}</p>
-                </div>
-              ))}
+          <div className="mt-5 tablet:m-10 grid grid-cols-3 gap-6">
+            {data.skills.map((skill, index) => (
+              <div key={index} className="flex flex-col items-center">
+                <img src={skill.imgSrc} alt={skill.title} className="w-16 h-16" />
+                <p className="mt-2 text-center">{skill.title}</p>
+              </div>
+            ))}
           </div>
         </div>
+
         <Footer />
       </div>
+      {selectedProject && (
+        <ProjectDetailsModal
+          show={true}
+          onHide={handleModalClose}
+          data={selectedProject}
+        />
+      )}
     </div>
   );
 }

@@ -1,0 +1,51 @@
+.workCard {
+    overflow: hidden;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .imageContainer {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-out;
+    height: 600px;
+  }
+  
+  .projectImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+  }
+  
+  .projectImage:hover {
+    transform: scale(1.1);
+  }
+  
+  .projectName {
+    margin-top: 1.25rem;
+    font-size: 1.875rem;
+    font-weight: 500;
+  }
+  
+  .projectDescription {
+    font-size: 1.25rem;
+    opacity: 0.5;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .imageContainer {
+      height: 300px;
+    }
+  
+    .projectName {
+      font-size: 1.5rem;
+    }
+  
+    .projectDescription {
+      font-size: 1rem;
+    }
+  }
