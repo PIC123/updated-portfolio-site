@@ -14,16 +14,17 @@ const ProjectDetailsModal = ({ show, onHide, data }) => {
     return null;
   }
 
-  const { technologies, images, title, description, url } = data;
+  const { technologies, images, title, description, url, startDate } = data;
 
 
   const tech = technologies?.map((icons, i) => (
     <li className={`${styles.techItem} ${isDarkMode ? styles.darkMode : ''}`} key={i}>
       <span>
         <div className={styles.techIcon}>
-          <i className={icons.class}>
+          {/* <i className={icons.class}>
             <p className={styles.techName}>{icons.name}</p>
-          </i>
+          </i> */}
+          <p className={styles.techName}>{icons.name}</p>
         </div>
       </span>
     </li>
@@ -42,13 +43,17 @@ const ProjectDetailsModal = ({ show, onHide, data }) => {
         </span>
 
         <div className={styles.sliderContainer}>
-          <AwesomeSlider
+          {img.length > 1 ? <AwesomeSlider
             cssModule={isDarkMode ? AwesomeSliderStylesDark : AwesomeSliderStyles}
             animation="scaleOutAnimation"
             className={`${styles.sliderImage} ${isDarkMode ? styles.darkMode : ''}`}
           >
             {img}
-          </AwesomeSlider>
+          </AwesomeSlider>:(
+            <div className={`${styles.sliderImage} ${isDarkMode ? styles.darkMode : ''}`}>
+              <img src={images[0]} alt={title} />
+            </div>
+          )}
         </div>
 
         <div className={`${styles.projectInfo} ${isDarkMode ? styles.darkMode : ''}`}>

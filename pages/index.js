@@ -64,14 +64,6 @@ export default function Home() {
       {/* {data.showCursor && <Cursor />} */}
       <Head>
         <title>{data.name}</title>
-        <link 
-          rel="stylesheet" 
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
-          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
-          crossOrigin="anonymous" 
-          referrerPolicy="no-referrer" 
-        />
-        <link rel="stylesheet" href="devicon.min.css"></link>
       </Head>
 
       <div className="gradient-circle"></div>

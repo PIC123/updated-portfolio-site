@@ -41,7 +41,7 @@
                     "name": "C#"
                 },
                 {
-                    "class": "devicon-unity-plain",
+                    "class": "fa-unity",
                     "name": "Unity"
                 },
                 {
@@ -71,7 +71,7 @@
                     "name": "Unity"
                 },
                 {
-                    "class": "devicon-AI",
+                    "class": "fa-robot",
                     "name": "Generative AI"
                 },
                 {
@@ -92,7 +92,6 @@
             "id": "0",
             "title": "Natural Harmony",
             "description": "An interactive real-time generative Ai piece that seeks to reconnect a disassociated humanity to the planet we call home. Using Generative AI as a mirror, we see ourselves not as observers of nature, but as integral parts of its untouched beauty. We are transformed into mountains, rivers, and forests, inspiring a dialogue on living in harmony with nature. Presented at the Boston Museum of Science's Rise Up climate event and the MIT Sloan AI & ML Conference",
-            "url": "https://www.cherner.dev/",
             "startDate": "2024",
             "images": [
                 "https://pchernerportfoliosa.blob.core.windows.net/projects/natural-harmony5.gif",
@@ -102,19 +101,19 @@
             ],
             "technologies": [
                 {
-                    "class": "devicon-devicon-angularjs-plain",
+                    "class": "fa-computer-mouse",
                     "name": "TouchDesigner"
                 },
                 {
-                    "class": "devicon-devicon-typescript-plain",
+                    "class": "devicon-python-plain",
                     "name": "Python"
                 },
                 {
-                    "class": "devicon-devicon-csharp-plain",
+                    "class": "devicon-arduino-plain",
                     "name": "Arduino"
                 },
                 {
-                    "class": "devicon-devicon-csharp-plain",
+                    "class": "fa-robot",
                     "name": "Generative AI"
                 }
             ]
@@ -123,7 +122,7 @@
             "id": "1",
             "title": "Portico Projection Mapping",
             "description": "Sound reactive projection mapping of a mural. Portico Brewery's mural came alive through projection mapping, transforming the static art into a dynamic visual installation for a music event. The addition of animations like blinking eyes and moving figures created an immersive experience, blending the mural art and musical performance.",
-            "startDate": "2024",
+            "startDate": "2023",
             "images": [
                 "https://pchernerportfoliosa.blob.core.windows.net/projects/portico-mapping.gif",
                 "https://pchernerportfoliosa.blob.core.windows.net/projects/portico-mapping.jpg"
@@ -145,14 +144,48 @@
                 "https://pchernerportfoliosa.blob.core.windows.net/projects/eMote3.png", 
                 "https://pchernerportfoliosa.blob.core.windows.net/projects/eMote2.jpg"
             ],
-            "url": "https://www.emoteai.art/"
+            "url": "https://www.emoteai.art/",
+            "startDate": "2023",
+            "technologies":[
+                {
+                    "class": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-azure-plain",
+                    "name": "Azure"
+                },
+                {
+                    "class": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "class": "fa-robot",
+                    "name": "Generative AI"
+                }
+            ]
         },
         {
             "id": "5",
             "title": "Tipping Points",
             "description": "An immersive installation at the Museum of Science, using generative AI video and projection mapping. Tipping Points was built to convey the multitude of variables that support a healthy environment, and depict the consequences of removing too many factors. With AI-generated visuals projection-mapped onto the museum wall and a reimagined game of Jenga, Tipping Points is a multisensory experience that guides the audience through the potential collapse that awaits us if we don’t take action soon.",
             "images": ["https://pchernerportfoliosa.blob.core.windows.net/projects/tipping-points.jpg"],
-            "url": "https://www.waveforms.media/nikuai"
+            "url": "https://www.waveforms.media/nikuai",
+            "startDate": "2023",
+            "technologies":[
+                {
+                    "class": "fa fa-cogs",
+                    "name": "Projection Mapping"
+                },
+                {
+                    "class": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "class": "devicon-devicon-csharp-plain",
+                    "name": "Generative AI"
+                }
+            ]
         },
         {
             "id": "6",
@@ -162,7 +195,26 @@
                 "https://raw.githubusercontent.com/PIC123/DreamWeaver/main/src/background.png",
                 "https://pchernerportfoliosa.blob.core.windows.net/projects/dreamweaver.png"
             ],
-            "url": "https://mango-flower-0aa90fa0f.3.azurestaticapps.net/"
+            "url": "https://mango-flower-0aa90fa0f.3.azurestaticapps.net/",
+            "startDate": "2023",
+            "technologies":[
+                {
+                    "class": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-azure-plain",
+                    "name": "Azure"
+                },
+                {
+                    "class": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "class": "fa-robot",
+                    "name": "Generative AI"
+                }
+            ]
         },
         {
             "id": "7",
@@ -171,49 +223,140 @@
             "images": [
                 "https://pchernerportfoliosa.blob.core.windows.net/projects/dream-machine.png",
                 "https://pchernerportfoliosa.blob.core.windows.net/projects/dream-machine2.png"],
-            "url": "https://lively-smoke-004d17f10.2.azurestaticapps.net/"
+            "url": "https://lively-smoke-004d17f10.2.azurestaticapps.net/",
+            "startDate": "2023",
+            "technologies":[
+                {
+                    "class": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-azure-plain",
+                    "name": "Azure"
+                },
+                {
+                    "class": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "class": "fa-robot",
+                    "name": "Generative AI"
+                },
+                {
+                    "class": "devicon-devicon-typescript-plain",
+                    "name": "Twilio"
+                }
+            ]
         },
         {
             "id": "8",
             "title": "FetchML",
             "description": "This little guy is an AI that was trained with Reinforcement Learning using Unity's ML Agents platform. With just 15 minutes of training Bruce was able to learn to play fetch naturally with basic rewards for getting the ball and returning it.",
             "images": ["https://media.githubusercontent.com/media/PIC123/FetchML-Quest/main/resources/fetchMLdemo.gif"],
-            "url": "https://github.com/PIC123/FetchML-Quest"
+            "url": "https://github.com/PIC123/FetchML-Quest",
+            "startDate": "2021",
+            "technologies":[
+                {
+                    "class": "devicon-unity-plain",
+                    "name": "Unity"
+                },
+                {
+                    "class": "fa-robot",
+                    "name": "Reinforcement Learning"
+                }
+            ]
         },
         {
             "id": "9",
             "title": "RockPaperScissors(RPS) VR",
             "description": "This demo app combines the Oculus Quest's hand tracking with gesture recognition and MRTK-Quest to play Rock, Paper, Scissors.",
             "images": ["https://github.com/PIC123/RockPaperScissors-Quest/blob/main/resources/rockPaperScissorsDemo.gif?raw=true"],
-            "url": "https://github.com/PIC123/RockPaperScissors-Quest"
+            "url": "https://github.com/PIC123/RockPaperScissors-Quest",
+            "startDate": "2021",
+            "technologies":[
+                {
+                    "class": "fa-unity",
+                    "name": "Unity"
+                },
+                {
+                    "class": "fa-vr-cardboard",
+                    "name": "VR"
+                }
+            ]
         },
         {
             "id": "10",
             "title": "Orion-MRTK",
             "description": "An adaptation of Leap Motion's Orion tech demo for the Oculus Quest, using hand tracking and leveraging MRTK for menus and interactions",
             "images": ["https://media.githubusercontent.com/media/PIC123/OrionQuest-MRTK/main/resources/Orion-MRTK.gif"],
-            "url": "https://github.com/PIC123/OrionQuest-MRTK"
-        },
-        {
-            "id": "11",
-            "title": "ARtBot",
-            "description": "An interactive virtual art gallery with holographic robot curator, developed for NY Creative Tech Week. The user can speak with the ARtBot, which uses speech-to-text and NLP, and ask questions about the art pieces or artists, or change the paintings on display",
-            "images": ["https://github.com/PIC123/react-portfolio-template/blob/master/src/images/artbot.png?raw=true"],
-            "url": "https://www.cherner.dev/"
+            "url": "https://github.com/PIC123/OrionQuest-MRTK",
+            "startDate": "2020",
+            "technologies":[
+                {
+                    "class": "devicon-unity-plain",
+                    "name": "Unity"
+                },
+                {
+                    "class": "devicon-vr-ar",
+                    "name": "VR"
+                }
+            ]
         },
         {
             "id": "12",
             "title": "VoTT",
             "description": "Visual Object Tagging Tool is an open source annotation and labeling tool for images and videos. It allows users to quickly label their data and export it in a variety of for\u0002mats to facilitate training ma\u0002chine learning models",
             "images": ["https://github.com/PIC123/react-portfolio-template/blob/master/src/images/vott.png?raw=true"],
-            "url": "https://github.com/microsoft/VoTT"
+            "url": "https://github.com/microsoft/VoTT",
+            "startDate": "2019",
+            "technologies":[
+                {
+                    "class": "devicon-devicon-typescript-plain",
+                    "name": "Typescript"
+                },
+                {
+                    "class": "devicon-devicon-react-plain",
+                    "name": "React"
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "title": "ARtBot",
+            "description": "An interactive virtual art gallery with holographic robot curator, developed for NY Creative Tech Week. The user can speak with the ARtBot, which uses speech-to-text and NLP, and ask questions about the art pieces or artists, or change the paintings on display",
+            "images": ["https://github.com/PIC123/react-portfolio-template/blob/master/src/images/artbot.png?raw=true"],
+            "startDate": "2018",
+            "technologies":[
+                {
+                    "class": "devicon-unity-plain",
+                    "name": "Unity"
+                },
+                {
+                    "class": "devicon-vr-ar",
+                    "name": "AR"
+                }
+            ]
         },
         {
             "id": "13",
             "title": "VR Haptics",
             "description": "An IoT based armband to be worn while in VR that would simulate haptic feedback using electrical mus\u0002cle stimulation. The device was activated based on hand position, tracked using a leap motion on the front of an Oculus Rift, and could simulate tap\u0002ping, as well as recoil through muscle contraction",
             "images": ["https://github.com/PIC123/react-portfolio-template/blob/master/src/images/vrHaptics.png?raw=true"],
-            "url": "https://www.cherner.dev/"
+            "startDate": "2016",
+            "technologies":[
+                {
+                    "class": "devicon-unity-plain",
+                    "name": "Unity"
+                },
+                {
+                    "class": "devicon-vr-ar",
+                    "name": "VR"
+                },
+                {
+                    "class": "devicon-arduino-plain",
+                    "name": "Arduino"
+                }
+            ]
         }
     ],
     "services": [
